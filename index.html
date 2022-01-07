@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <!-- fontAwesome CDN-->
+    <script src="https://kit.fontawesome.com/2feefe8604.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+
+    <!-- bootstrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="player">
+            <h1 id="title">Kaash aisa Hota</h1>
+            <h2 id="artist">Darshan Raval</h2>
+            <div class="imgContainer">
+                <img src="./images/1.jpg" alt="">
+            </div>
+            <audio src="./songs/1.mp3"></audio>
+
+            <div class="buttons">
+                <i class="fas fa-backward" id="previous" title="Previous"></i>
+                <i class="fas fa-play playButton" id="play" title="Play"></i>
+                <i class="fas fa-forward" id="next" title="Next"></i>
+            </div>
+            <!-- <div class="progress">
+            <div class="durationMeter">
+                <div class="currentTime" id="Current_time">0.00</div>
+                <div class="durationSong" id="duration">5.00</div>
+            </div>
+            <input type="range" class="form-range my-5" id="customRange1">
+            </div> -->
+        </div>
+    </div>
+
+
+
+
+    <!-- bootstrap JS  -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+<script src="./script.js"></script>
+
+</html>
